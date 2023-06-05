@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap');
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+body {
+    min-width: 320px;
+    background-image: url(../img/bg.jpg);
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.btn-reset {
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+.section-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+.flex {
+    display: flex;
+}
+.burger {
+    display: none;
+}
+.header {
+    background: url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 840px;
+}
+.header__container {
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__item:not(:last-child) {
+    margin-right: 30px;
+}
+.nav__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+.nav__link:hover {
+    color: #D4C17F;
+}
+.content {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    position: relative;
+    max-width: 556px;
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+    margin-bottom: 81px;
+}
+.mouse {
+    margin-bottom: 200px;
+}
+.subtext {
+    display: flex;
+    align-items: center;
+}
+.location {
+    margin-right: 98px;
+    color: #fff;
+} 
+.phone-call {
+    color: #fff;
+}
+.location svg {
+    margin-right: 17px;
+}
+.phone-call svg {
+    margin-right: 17px;
+}
+.testimonials {
+    text-align: center;
+    margin-bottom: 120px;
+}
+.apartaments {
+    margin-bottom: 100px;
+}
+.title2 {
+    font-family: 'Playfair Display';
+    margin-bottom: 88px;
+}
+.apartament__list {
+    flex-wrap: wrap;
+}
+.apartament__item {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(image.png), #D4C17F;
+    margin-bottom: 30px;
+}
+.apartament__item:not(:last-child) {
+    margin-right: 15px;
+}
+.card {
+    position: relative;
+}
+.loft__img {
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+.loft__img:hover {
+    transform: scale(1.1);
+}
+.loft__text {
+    position: absolute;
+    left: 60px;
+    bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
